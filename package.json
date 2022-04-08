@@ -1,12 +1,12 @@
 {
-    "name": "Selvania-Launcher",
+    "name": "Utopicube-Launcher",
     "version": "3.0.0-alpha.4",
-    "productName": "Selvania Launcher",
+    "productName": "Utopicube Launcher",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/index.html",
     "author": "Luuxis",
     "window": {
-        "title": "Selvania update",
+        "title": "Utopicube update",
         "width": 400,
         "height": 500,
         "frame": false,
@@ -18,7 +18,7 @@
         "node": "16.x.x"
     },
     "chromium-args": "--enable-logging --v=1",
-    "url": "http://launcher.selvania.fr",
+    "url": "http://146.59.227.84:83/launchers/utopicube_v8/",
     "user": false,
     "webkit": {
         "plugin": true
@@ -34,7 +34,7 @@
     },
     "license": "CC0",
     "build": {
-        "appId": "Selvania Launcher",
+        "appId": "Utopicube Launcher",
         "nwVersion": "0.60.0",
         "packed": true,
         "args": ["--user-data-dir=./AppData/launcher data"],
@@ -60,7 +60,7 @@
         "overriddenProperties": {
             "main": "app/index.html",
             "window": {
-                "title": "Selvania update",
+                "title": "Utopicube update",
                 "width": 400,
                 "height": 500,
                 "frame": false,
@@ -71,16 +71,16 @@
         },
         "outputPattern": "${NAME}-${PLATFORM}-${ARCH}",
         "win": {
-            "productName": "Selvania Launcher",
-            "companyName": "Selvania Launcher",
+            "productName": "Utopicube Launcher",
+            "companyName": "Utopicube Launcher",
             "copyright": "copyright",
             "icon": "src/assets/images/icon.ico"
         },
         "mac": {
-            "displayName": "Selvania-Launcher",
+            "displayName": "Utopicube-Launcher",
             "copyright": "copyright",
             "plistStrings": {
-                "CFBundleIdentifier": "Selvania-Launcher"
+                "CFBundleIdentifier": "Utopicube-Launcher"
             }
         },
         "nsis": {
